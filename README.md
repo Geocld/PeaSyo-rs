@@ -9,6 +9,8 @@
   </a>
 </p>
 
+**English** | [中文](./README.zh_CN.md)
+
 <p align="center">
   Next-gen PS4/PS5 high-performance streaming client for Android, built with Rust, delivering a secure, high-performance, and stable streaming experience.
 </p>
