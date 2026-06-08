@@ -41,6 +41,16 @@ PeaSyo，也称貔貅（pixiu），使用中国古代神兽命名，是一款PS4
 - 雷蛇原生触觉反馈（不是音频振动），不使用DualSense也能体验完整的PS5触觉反馈
 - 雷蛇控制器(razer ultra/v3系列)高级配置
 
+## 架构
+
+PeaSyo v2 以 Rust 原生串流核心为中心构建。React Native 负责 Android 端交互体验，Rust 核心负责高吞吐网络、会话运行时、包处理、FEC 恢复、性能统计、音频链路、自动远程连接和控制器传输等关键路径。Android 平台层保持轻量，主要负责 MediaCodec 渲染 Surface、USB 权限、SDL 加载以及设备能力适配。
+
+<p align="center">
+  <img src="./images/architecture.svg" alt="PeaSyo v2 Rust 架构" width="920">
+</p>
+
+这种分层让延迟敏感和吞吐敏感的逻辑尽可能靠近原生实现，同时保留 React Native 在手机、平板、电视和掌机设备上的灵活交互能力。
+
 <img src="https://raw.githubusercontent.com/Geocld/PeaSyo/main/images/game.jpg" width="400" />
 <img src="https://github.com/Geocld/PeaSyo/blob/main/images/home.jpg" width="400" /><img src="https://raw.githubusercontent.com/Geocld/PeaSyo/main/images/settings.jpg" width="400" />
 

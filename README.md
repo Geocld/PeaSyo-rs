@@ -42,6 +42,16 @@ If you are looking for a PS5/4 streaming app for Windows/MacOS/Linux(steamOS), c
 - Razer native haptic feedback (not audio-based vibration) — full PS5 haptic feedback without a DualSense controller
 - Razer controller (Razer Ultra/V3 series) advanced configuration
 
+## Architecture
+
+PeaSyo v2 is built around a Rust-native streaming core. React Native focuses on the Android user experience, while the Rust core owns the high-throughput networking, session runtime, packet processing, FEC recovery, statistics, audio pipeline, remote connection flow, and controller transport. The Android platform layer stays thin and is responsible for system integration such as MediaCodec rendering surfaces, USB permissions, SDL loading, and device-specific capabilities.
+
+<p align="center">
+  <img src="./images/architecture.svg" alt="PeaSyo v2 Rust architecture" width="920">
+</p>
+
+This split keeps latency-sensitive work close to native code while preserving a flexible React Native interface for Android phones, tablets, TV devices, and handhelds.
+
 <img src="https://raw.githubusercontent.com/Geocld/PeaSyo/main/images/game.jpg" width="400" />
 <img src="https://github.com/Geocld/PeaSyo/blob/main/images/home.jpg" width="400" /><img src="https://raw.githubusercontent.com/Geocld/PeaSyo/main/images/settings.jpg" width="400" />
 
