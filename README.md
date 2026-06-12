@@ -25,6 +25,14 @@ PeaSyo, also known as Pixiu (named after an ancient Chinese mythical beast), is 
 
 If you are looking for a PS5/4 streaming app for Windows/MacOS/Linux(steamOS), check out the PeaSyo desktop version [PeaSyo4Desk](https://github.com/Geocld/PeaSyo4Desk).
 
+## iOS
+
+`PeaSyo` is now available on the Apple Store, if you like this app, you can support us by purchasing it for the price of a cup of coffee.
+
+<a href="https://apps.apple.com/us/app/peasyo/id6743263824">
+    <img alt="Download on the App Store" src="https://raw.githubusercontent.com/Geocld/XStreaming/main/images/apple-store-badge.svg" style="height: 64px">
+</a>
+
 ## Features
 
 - Multi-console registration
