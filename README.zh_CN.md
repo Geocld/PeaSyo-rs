@@ -28,6 +28,13 @@ PeaSyo，也称貔貅（pixiu），使用中国古代神兽命名，是一款PS4
     <img alt="Download on the App Store" src="https://raw.githubusercontent.com/Geocld/XStreaming/main/images/apple-store-badge.svg" style="height: 64px">
 </a>
 
+## 鸿蒙
+`PeaSyo` 已上架华为App Gallery，支持HarmonyOS 5及以上系统，你现在就可以免费下载!
+
+<a href="https://appgallery.huawei.com/app/detail?id=com.lijiahao.peasyooh" target="_blank">
+    <img alt="Explore on App Gallery" src="https://raw.githubusercontent.com/Geocld/XStreaming/main/images/Huawei_AppGallery.png" style="height: 64px">
+</a>
+
 ## Windows/MacOS/Linux(steamOS)
 
 如果你在找 Windows/MacOS/Linux(steamOS) 平台的PS5/4串流应用, 请移步PeaSyo桌面版 [PeaSyo4Desk](https://github.com/Geocld/PeaSyo4Desk).

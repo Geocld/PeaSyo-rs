@@ -33,6 +33,13 @@ If you are looking for a PS5/4 streaming app for Windows/MacOS/Linux(steamOS), c
     <img alt="Download on the App Store" src="https://raw.githubusercontent.com/Geocld/XStreaming/main/images/apple-store-badge.svg" style="height: 64px">
 </a>
 
+## HarmonyOS
+`XStreaming` is now available on the HUAWEI App Gallery!
+
+<a href="https://appgallery.huawei.com/app/detail?id=com.lijiahao.peasyooh" target="_blank">
+    <img alt="Explore on App Gallery" src="https://raw.githubusercontent.com/Geocld/XStreaming/main/images/Huawei_AppGallery.png" style="height: 64px">
+</a>
+
 ## Features
 
 - Multi-console registration
